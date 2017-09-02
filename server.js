@@ -1,0 +1,26 @@
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+// Server routes...
+// Server routes MUST be above webpack logic
+app.get('/hello', (req, res) => res.send({ hi: 'there' }));
+
+if (process.env.NODE_ENV !== 'production') {
+    const webpackMiddleware = require('webpack-dev-middleware');
+    const webpack = require('webpack');
+    const webpackConfig = require('./webpack.config.js');
+
+    app.use(webpackMiddleware(webpack(webpackConfig)));
+} else {
+    app.use(express.static('public'));
+
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, 'public/index.html'));
+    });
+}
+
+const port = process.env.PORT || 3050
+
+app.listen(port, () => console.log(`listening on port: ${port}`));
