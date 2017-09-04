@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import MapGL from 'react-map-gl';
 import DeckGL, { ScatterplotLayer } from 'deck.gl';
-import { CSSTransitionGroup } from 'react-transition-group';
 import anime from 'animejs'
 
 import ControlPanel from './ControlPanel';
+import YearOptionPanel from './YearOptionPanel';
 import BartOverlay from './BartOverlay';
 
 import bartStations from './bart-station.json';
@@ -35,12 +35,16 @@ export default class App extends Component {
       minPitch: 0,
       maxPitch: 85
     },
-    selectedStation: null
+    selectedStation: null,
+    years: [],
+    selectedYear: Number((new Date()).getFullYear()) - 1 // previous year is default
   }
 
   componentDidMount() {
     window.addEventListener('resize', this._resize);
     this._resize();
+    // find out the values (years) for the input range and set them into component levele state
+    this._getInputRange()
   }
 
   componentWillUnmount() {
@@ -93,8 +97,8 @@ export default class App extends Component {
   }
 
   _renderControlPanel() {
-    const { selectedStation } = this.state;
-    return selectedStation ? <ControlPanel selectedStation={selectedStation} _hideControlPanel={this._hideControlPanel} /> : null;
+    const { selectedStation, selectedYear } = this.state;
+    return selectedStation ? <ControlPanel selectedYear={selectedYear} selectedStation={selectedStation} _hideControlPanel={this._hideControlPanel} /> : null;
   }
 
   _stationClicked = station => {
@@ -102,8 +106,29 @@ export default class App extends Component {
     this._controlPanelAnimation('open');
   }
 
+  _getInputRange = () => {
+    let years = [];
+    bartStations.forEach(station => {
+      station.crimes.forEach(crime => {
+        if (years.indexOf(crime.year) === -1) {
+          years.push(crime.year)
+        }
+      });
+    });
+    years = years.sort((a, b) => a - b)
+    this.setState({ years });
+  }
+
+  _yearChanged = event => {
+    this.setState({ selectedYear: event.target.value });
+  }
+  // disables the map drag
+  _disableMap = () => this.setState({ settings: { ...this.state.settings, dragPan: false } })
+  // enables the map drag
+  _enableMap = () => this.setState({ settings: { ...this.state.settings, dragPan: true } })
+
   render() {
-    const { viewport, settings } = this.state;
+    const { viewport, settings, years, selectedYear } = this.state;
 
     const layer = new ScatterplotLayer({
       id: 'scatterplot-layer',
@@ -130,8 +155,14 @@ export default class App extends Component {
       /> */}
 
       <DeckGL radiusMinPixels={75} {...viewport} layers={[layer]} />
-
       {this._renderControlPanel()}
+      <YearOptionPanel
+        selectedYear={selectedYear}
+        years={years}
+        _yearChanged={this._yearChanged}
+        _disableMap={this._disableMap}
+        _enableMap={this._enableMap}
+      />
     </MapGL>
   }
 }

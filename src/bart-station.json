@@ -5,11 +5,15 @@
     "address": "3601 Deer Hill Road, Lafayette CA 94549",
     "entries": "3481",
     "exits": "3616",
-    "coordinates": [
-      -122.123801,
-      37.893394
-    ],
-    "crimes": [{"year": 2016, "robberies": 2}]
+    "coordinates": [-122.123801, 37.893394],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 10},
+      {"year": 2016, "robberies": 2, "assault": 4, "property": 48},
+      {"year": 2015, "robberies": 0, "assault": 7, "property": 54},
+      {"year": 2014, "robberies": 2, "assault": 3, "property": 46},
+      {"year": 2013, "robberies": 0, "assault": 1, "property": 58},
+      {"year": 2012, "robberies": 1, "assault": 0, "property": 26}
+    ]
   },
   {
     "name": "12th St. Oakland City Center (12TH)",
@@ -17,9 +21,14 @@
     "address": "1245 Broadway, Oakland CA 94612",
     "entries": "13418",
     "exits": "13547",
-    "coordinates": [
-      -122.271604,
-      37.803664
+    "coordinates": [-122.271604, 37.803664],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 6, "property": 3},
+      {"year": 2016, "robberies": 8, "assault": 10, "property": 13},
+      {"year": 2015, "robberies": 3, "assault": 15, "property": 15},
+      {"year": 2014, "robberies": 5, "assault": 10, "property": 33},
+      {"year": 2013, "robberies": 7, "assault": 9, "property": 18},
+      {"year": 2012, "robberies": 9, "assault": 7, "property": 18}
     ]
   },
   {
@@ -28,9 +37,14 @@
     "address": "2000 Mission Street, San Francisco CA 94110",
     "entries": "12409",
     "exits": "12351",
-    "coordinates": [
-      -122.419694,
-      37.765062
+    "coordinates": [-122.419694, 37.765062],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 4},
+      {"year": 2016, "robberies": 1, "assault": 8, "property": 20},
+      {"year": 2015, "robberies": 3, "assault": 14, "property": 14},
+      {"year": 2014, "robberies": 1, "assault": 7, "property": 17},
+      {"year": 2013, "robberies": 5, "assault": 10, "property": 32},
+      {"year": 2012, "robberies": 3, "assault": 2, "property": 54}
     ]
   },
   {
@@ -39,9 +53,14 @@
     "address": "1900 Broadway, Oakland CA 94612",
     "entries": "13108",
     "exits": "13090",
-    "coordinates": [
-      -122.269029,
-      37.80787
+    "coordinates": [-122.269029, 37.80787],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 2, "property": 9},
+      {"year": 2016, "robberies": 1, "assault": 8, "property": 30},
+      {"year": 2015, "robberies": 3, "assault": 3, "property": 26},
+      {"year": 2014, "robberies": 3, "assault": 10, "property": 53},
+      {"year": 2013, "robberies": 3, "assault": 12, "property": 40},
+      {"year": 2012, "robberies": 5, "assault": 4, "property": 47}
     ]
   },
   {
@@ -50,9 +69,14 @@
     "address": "2800 Mission Street, San Francisco CA 94110",
     "entries": "12817",
     "exits": "12529",
-    "coordinates": [
-      -122.418466,
-      37.752254
+    "coordinates": [-122.418466, 37.752254],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 1, "property": 4},
+      {"year": 2016, "robberies": 2, "assault": 10, "property": 19},
+      {"year": 2015, "robberies": 0, "assault": 1, "property": 21},
+      {"year": 2014, "robberies": 1, "assault": 8, "property": 24},
+      {"year": 2013, "robberies": 6, "assault": 6, "property": 49},
+      {"year": 2012, "robberies": 2, "assault": 1, "property": 39}
     ]
   },
   {
@@ -61,9 +85,14 @@
     "address": "3100 Adeline Street, Berkeley CA 94703",
     "entries": "5452",
     "exits": "5341",
-    "coordinates": [
-      -122.26978,
-      37.853024
+    "coordinates": [-122.26978, 37.853024],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 2, "property": 15},
+      {"year": 2016, "robberies": 5, "assault": 9, "property": 38},
+      {"year": 2015, "robberies": 2, "assault": 8, "property": 66},
+      {"year": 2014, "robberies": 1, "assault": 3, "property": 77},
+      {"year": 2013, "robberies": 2, "assault": 4, "property": 71},
+      {"year": 2012, "robberies": 3, "assault": 13, "property": 85}
     ]
   },
   {
@@ -72,9 +101,14 @@
     "address": "401 Geneva Avenue, San Francisco CA 94112",
     "entries": "11170",
     "exits": "9817",
-    "coordinates": [
-      -122.447414,
-      37.721981
+    "coordinates": [-122.447414, 37.721981],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 0, "property": 3},
+      {"year": 2016, "robberies": 1, "assault": 6, "property": 22},
+      {"year": 2015, "robberies": 2, "assault": 5, "property": 23},
+      {"year": 2014, "robberies": 4, "assault": 6, "property": 24},
+      {"year": 2013, "robberies": 6, "assault": 7, "property": 42},
+      {"year": 2012, "robberies": 5, "assault": 4, "property": 26}
     ]
   },
   {
@@ -83,9 +117,14 @@
     "address": "15242 Hesperian Blvd., San Leandro CA 94578",
     "entries": "5564",
     "exits": "5516",
-    "coordinates": [
-      -122.126871,
-      37.697185
+    "coordinates": [-122.126871, 37.697185],
+    "crimes": [
+      {"year": 2017, "robberies": 9, "assault": 8, "property": 13},
+      {"year": 2016, "robberies": 7, "assault": 19, "property": 59},
+      {"year": 2015, "robberies": 13, "assault": 20, "property": 103},
+      {"year": 2014, "robberies": 13, "assault": 20, "property": 87},
+      {"year": 2013, "robberies": 13, "assault": 13, "property": 76},
+      {"year": 2012, "robberies": 9, "assault": 15, "property": 93}
     ]
   },
   {
@@ -94,9 +133,14 @@
     "address": "3301 Norbridge Dr., Castro Valley CA 94546",
     "entries": "2781",
     "exits": "2735",
-    "coordinates": [
-      -122.075567,
-      37.690754
+    "coordinates": [-122.075567, 37.690754],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 1, "property": 9},
+      {"year": 2016, "robberies": 2, "assault": 5, "property": 27},
+      {"year": 2015, "robberies": 1, "assault": 1, "property": 25},
+      {"year": 2014, "robberies": 0, "assault": 4, "property": 28},
+      {"year": 2013, "robberies": 1, "assault": 5, "property": 27},
+      {"year": 2012, "robberies": 1, "assault": 2, "property": 22}
     ]
   },
   {
@@ -105,9 +149,14 @@
     "address": "1150 Market Street, San Francisco CA 94102",
     "entries": "24798",
     "exits": "22626",
-    "coordinates": [
-      -122.413756,
-      37.779528
+    "coordinates": [-122.413756, 37.779528],
+    "crimes": [
+      {"year": 2017, "robberies": 3, "assault": 5, "property": 18},
+      {"year": 2016, "robberies": 15, "assault": 22, "property": 70},
+      {"year": 2015, "robberies": 7, "assault": 20, "property": 39},
+      {"year": 2014, "robberies": 7, "assault": 26, "property": 41},
+      {"year": 2013, "robberies": 10, "assault": 11, "property": 54},
+      {"year": 2012, "robberies": 14, "assault": 18, "property": 57}
     ]
   },
   {
@@ -116,9 +165,14 @@
     "address": "365 D Street, Colma CA 94014",
     "entries": "4397",
     "exits": "4214",
-    "coordinates": [
-      -122.466233,
-      37.684638
+    "coordinates": [-122.466233, 37.684638],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 0, "property": 6},
+      {"year": 2016, "robberies": 2, "assault": 3, "property": 6},
+      {"year": 2015, "robberies": 0, "assault": 3, "property": 14},
+      {"year": 2014, "robberies": 0, "assault": 2, "property": 11},
+      {"year": 2013, "robberies": 1, "assault": 3, "property": 12},
+      {"year": 2012, "robberies": 0, "assault": 3, "property": 9}
     ]
   },
   {
@@ -127,9 +181,14 @@
     "address": "7200 San Leandro St., Oakland CA 94621",
     "entries": "5837",
     "exits": "5902",
-    "coordinates": [
-      -122.197273,
-      37.754006
+    "coordinates": [-122.197273, 37.754006],
+    "crimes": [
+      {"year": 2017, "robberies": 13, "assault": 10, "property": 41},
+      {"year": 2016, "robberies": 32, "assault": 14, "property": 135},
+      {"year": 2015, "robberies": 16, "assault": 13, "property": 150},
+      {"year": 2014, "robberies": 9, "assault": 18, "property": 130},
+      {"year": 2013, "robberies": 16, "assault": 7, "property": 167},
+      {"year": 2012, "robberies": 15, "assault": 19, "property": 123}
     ]
   },
   {
@@ -138,9 +197,14 @@
     "address": "1451 Oakland Avenue, Concord CA 94520",
     "entries": "6035",
     "exits": "6008",
-    "coordinates": [
-      -122.029095,
-      37.973737
+    "coordinates": [-122.029095, 37.973737],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 3, "property": 8},
+      {"year": 2016, "robberies": 8, "assault": 21, "property": 74},
+      {"year": 2015, "robberies": 7, "assault": 11, "property": 104},
+      {"year": 2014, "robberies": 8, "assault": 16, "property": 62},
+      {"year": 2013, "robberies": 3, "assault": 10, "property": 84},
+      {"year": 2012, "robberies": 6, "assault": 10, "property": 56}
     ]
   },
   {
@@ -149,9 +213,14 @@
     "address": "500 John Daly Blvd., Daly City CA 94014",
     "entries": "8681",
     "exits": "8502",
-    "coordinates": [
-      -122.469081,
-      37.706121
+    "coordinates": [-122.469081, 37.706121],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 4, "property": 22},
+      {"year": 2016, "robberies": 2, "assault": 9, "property": 45},
+      {"year": 2015, "robberies": 2, "assault": 9, "property": 80},
+      {"year": 2014, "robberies": 5, "assault": 8, "property": 61},
+      {"year": 2013, "robberies": 3, "assault": 6, "property": 73},
+      {"year": 2012, "robberies": 5, "assault": 4, "property": 23}
     ]
   },
   {
@@ -160,9 +229,14 @@
     "address": "2160 Shattuck Avenue, Berkeley CA 94704",
     "entries": "11043",
     "exits": "11762",
-    "coordinates": [
-      -122.268045,
-      37.869867
+    "coordinates": [-122.268045, 37.869867],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 1, "property": 4},
+      {"year": 2016, "robberies": 2, "assault": 13, "property": 18},
+      {"year": 2015, "robberies": 2, "assault": 7, "property": 13},
+      {"year": 2014, "robberies": 2, "assault": 3, "property": 9},
+      {"year": 2013, "robberies": 4, "assault": 7, "property": 13},
+      {"year": 2012, "robberies": 3, "assault": 3, "property": 9}
     ]
   },
   {
@@ -171,9 +245,14 @@
     "address": "6400 Cutting Blvd., El Cerrito CA 94530",
     "entries": "8176",
     "exits": "8668",
-    "coordinates": [
-      -122.317269,
-      37.925655
+    "coordinates": [-122.317269, 37.925655],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 0, "property": 6},
+      {"year": 2016, "robberies": 2, "assault": 6, "property": 36},
+      {"year": 2015, "robberies": 4, "assault": 3, "property": 35},
+      {"year": 2014, "robberies": 1, "assault": 5, "property": 30},
+      {"year": 2013, "robberies": 2, "assault": 6, "property": 37},
+      {"year": 2012, "robberies": 2, "assault": 0, "property": 40}
     ]
   },
   {
@@ -182,9 +261,14 @@
     "address": "5801 Owens Dr., Pleasanton CA 94588",
     "entries": "7702",
     "exits": "7554",
-    "coordinates": [
-      -121.900367,
-      37.701695
+    "coordinates": [-121.900367, 37.701695],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 0, "property": 20},
+      {"year": 2016, "robberies": 1, "assault": 12, "property": 88},
+      {"year": 2015, "robberies": 1, "assault": 4, "property": 84},
+      {"year": 2014, "robberies": 2, "assault": 6, "property": 101},
+      {"year": 2013, "robberies": 0, "assault": 8, "property": 99},
+      {"year": 2012, "robberies": 1, "assault": 4, "property": 96}
     ]
   },
   {
@@ -193,9 +277,14 @@
     "address": "298 Market Street, San Francisco CA 94111",
     "entries": "40376",
     "exits": "46951",
-    "coordinates": [
-      -122.396742,
-      37.792976
+    "coordinates": [-122.396742, 37.792976],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 6, "property": 5},
+      {"year": 2016, "robberies": 3, "assault": 16, "property": 21},
+      {"year": 2015, "robberies": 2, "assault": 14, "property": 8},
+      {"year": 2014, "robberies": 4, "assault": 10, "property": 21},
+      {"year": 2013, "robberies": 5, "assault": 14, "property": 21},
+      {"year": 2012, "robberies": 1, "assault": 10, "property": 23}
     ]
   },
   {
@@ -204,9 +293,14 @@
     "address": "2000 BART Way, Fremont CA 94536",
     "entries": "8748",
     "exits": "8673",
-    "coordinates": [
-      -121.9764,
-      37.557355
+    "coordinates": [-121.9764, 37.557355],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 2, "property": 10},
+      {"year": 2016, "robberies": 2, "assault": 6, "property": 63},
+      {"year": 2015, "robberies": 2, "assault": 11, "property": 67},
+      {"year": 2014, "robberies": 4, "assault": 8, "property": 123},
+      {"year": 2013, "robberies": 3, "assault": 6, "property": 79},
+      {"year": 2012, "robberies": 3, "assault": 11, "property": 62}
     ]
   },
   {
@@ -215,9 +309,14 @@
     "address": "3401 East 12th Street, Oakland CA 94601",
     "entries": "7701",
     "exits": "8012",
-    "coordinates": [
-      -122.224274,
-      37.774963
+    "coordinates": [-122.224274, 37.774963],
+    "crimes": [
+      {"year": 2017, "robberies": 6, "assault": 5, "property": 32},
+      {"year": 2016, "robberies": 17, "assault": 8, "property": 115},
+      {"year": 2015, "robberies": 6, "assault": 16, "property": 108},
+      {"year": 2014, "robberies": 3, "assault": 17, "property": 88},
+      {"year": 2013, "robberies": 17, "assault": 10, "property": 84},
+      {"year": 2012, "robberies": 12, "assault": 7, "property": 86}
     ]
   },
   {
@@ -226,9 +325,14 @@
     "address": "2901 Diamond Street, San Francisco CA 94131",
     "entries": "7732",
     "exits": "7072",
-    "coordinates": [
-      -122.434092,
-      37.732921
+    "coordinates": [-122.434092, 37.732921],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 1, "property": 5},
+      {"year": 2016, "robberies": 1, "assault": 3, "property": 12},
+      {"year": 2015, "robberies": 0, "assault": 3, "property": 17},
+      {"year": 2014, "robberies": 0, "assault": 1, "property": 18},
+      {"year": 2013, "robberies": 1, "assault": 1, "property": 33},
+      {"year": 2012, "robberies": 3, "assault": 1, "property": 32}
     ]
   },
   {
@@ -237,9 +341,14 @@
     "address": "699 'B' Street, Hayward CA 94541",
     "entries": "4958",
     "exits": "5003",
-    "coordinates": [
-      -122.087967,
-      37.670399
+    "coordinates": [-122.087967, 37.670399],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 3, "property": 14},
+      {"year": 2016, "robberies": 6, "assault": 9, "property": 46},
+      {"year": 2015, "robberies": 6, "assault": 18, "property": 61},
+      {"year": 2014, "robberies": 12, "assault": 18, "property": 130},
+      {"year": 2013, "robberies": 5, "assault": 14, "property": 108},
+      {"year": 2012, "robberies": 4, "assault": 10, "property": 67}
     ]
   },
   {
@@ -248,9 +357,14 @@
     "address": "800 Madison Street, Oakland CA 94607",
     "entries": "6539",
     "exits": "6604",
-    "coordinates": [
-      -122.265609,
-      37.797484
+    "coordinates": [-122.265609,37.797484],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 10, "property": 15},
+      {"year": 2016, "robberies": 5, "assault": 12, "property": 46},
+      {"year": 2015, "robberies": 4, "assault": 7, "property": 49},
+      {"year": 2014, "robberies": 5, "assault": 14, "property": 63},
+      {"year": 2013, "robberies": 3, "assault": 15, "property": 50},
+      {"year": 2012, "robberies": 2, "assault": 11, "property": 44}
     ]
   },
   {
@@ -259,9 +373,14 @@
     "address": "555 40th Street, Oakland CA 94609",
     "entries": "9000",
     "exits": "9228",
-    "coordinates": [
-      -122.267227,
-      37.828415
+    "coordinates": [-122.267227, 37.828415],
+    "crimes": [
+      {"year": 2017, "robberies": 3, "assault": 6, "property": 23},
+      {"year": 2016, "robberies": 9, "assault": 19, "property": 67},
+      {"year": 2015, "robberies": 6, "assault": 16, "property": 83},
+      {"year": 2014, "robberies": 8, "assault": 18, "property": 104},
+      {"year": 2013, "robberies": 10, "assault": 8, "property": 77},
+      {"year": 2012, "robberies": 20, "assault": 9, "property": 85}
     ]
   },
   {
@@ -270,9 +389,14 @@
     "address": "200 North Rollins Road, Millbrae CA 94030",
     "entries": "6570",
     "exits": "6149",
-    "coordinates": [
-      -122.38666,
-      37.599787
+    "coordinates": [-122.38666, 37.599787],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 2, "property": 4},
+      {"year": 2016, "robberies": 1, "assault": 7, "property": 16},
+      {"year": 2015, "robberies": 0, "assault": 3, "property": 22},
+      {"year": 2014, "robberies": 0, "assault": 3, "property": 27},
+      {"year": 2013, "robberies": 0, "assault": 6, "property": 22},
+      {"year": 2012, "robberies": 0, "assault": 3, "property": 18}
     ]
   },
   {
@@ -281,9 +405,14 @@
     "address": "598 Market Street, San Francisco CA 94104",
     "entries": "43430",
     "exits": "45128",
-    "coordinates": [
-      -122.401407,
-      37.789256
+    "coordinates": [-122.401407, 37.789256],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 7, "property": 2},
+      {"year": 2016, "robberies": 0, "assault": 12, "property": 19},
+      {"year": 2015, "robberies": 1, "assault": 17, "property": 15},
+      {"year": 2014, "robberies": 2, "assault": 13, "property": 8},
+      {"year": 2013, "robberies": 3, "assault": 9, "property": 25},
+      {"year": 2012, "robberies": 1, "assault": 8, "property": 24}
     ]
   },
   {
@@ -292,9 +421,14 @@
     "address": "1750 Sacramento Street, Berkeley CA 94702",
     "entries": "4363",
     "exits": "4563",
-    "coordinates": [
-      -122.283451,
-      37.87404
+    "coordinates": [-122.283451, 37.87404],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 2, "property": 18},
+      {"year": 2016, "robberies": 2, "assault": 2, "property": 52},
+      {"year": 2015, "robberies": 3, "assault": 3, "property": 65},
+      {"year": 2014, "robberies": 4, "assault": 3, "property": 99},
+      {"year": 2013, "robberies": 2, "assault": 1, "property": 65},
+      {"year": 2012, "robberies": 1, "assault": 4, "property": 79}
     ]
   },
   {
@@ -303,9 +437,14 @@
     "address": "3700 Port Chicago Highway, Concord CA 94520",
     "entries": "2800",
     "exits": "2652",
-    "coordinates": [
-      -122.024597,
-      38.003275
+    "coordinates": [-122.024597,38.003275],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 3, "property": 13},
+      {"year": 2016, "robberies": 3, "assault": 3, "property": 52},
+      {"year": 2015, "robberies": 0, "assault": 3, "property": 34},
+      {"year": 2014, "robberies": 2, "assault": 7, "property": 44},
+      {"year": 2013, "robberies": 1, "assault": 0, "property": 39},
+      {"year": 2012, "robberies": 0, "assault": 2, "property": 51}
     ]
   },
   {
@@ -314,9 +453,14 @@
     "address": "11 Camino Pablo, Orinda CA 94563",
     "entries": "2896",
     "exits": "2970",
-    "coordinates": [
-      -122.183791,
-      37.878361
+    "coordinates": [-122.183791,37.878361],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 0, "property": 13},
+      {"year": 2016, "robberies": 3, "assault": 3, "property": 36},
+      {"year": 2015, "robberies": 0, "assault": 0, "property": 33},
+      {"year": 2014, "robberies": 1, "assault": 2, "property": 68},
+      {"year": 2013, "robberies": 0, "assault": 1, "property": 22},
+      {"year": 2012, "robberies": 1, "assault": 2, "property": 35}
     ]
   },
   {
@@ -325,9 +469,14 @@
     "address": "1365 Treat Blvd., Walnut Creek CA 94597",
     "entries": "7574",
     "exits": "7442",
-    "coordinates": [
-      -122.056013,
-      37.928403
+    "coordinates": [-122.056013,37.928403],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 2, "property": 15},
+      {"year": 2016, "robberies": 2, "assault": 3, "property": 74},
+      {"year": 2015, "robberies": 1, "assault": 4, "property": 120},
+      {"year": 2014, "robberies": 1, "assault": 5, "property": 81},
+      {"year": 2013, "robberies": 0, "assault": 3, "property": 73},
+      {"year": 2012, "robberies": 0, "assault": 2, "property": 75}
     ]
   },
   {
@@ -336,9 +485,14 @@
     "address": "1700 West Leland Road, Pittsburg CA 94565",
     "entries": "6262",
     "exits": "6343",
-    "coordinates": [
-      -121.945154,
-      38.018914
+    "coordinates": [-121.945154, 38.018914],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 2, "property": 17},
+      {"year": 2016, "robberies": 4, "assault": 16, "property": 65},
+      {"year": 2015, "robberies": 6, "assault": 17, "property": 79},
+      {"year": 2014, "robberies": 4, "assault": 15, "property": 119},
+      {"year": 2013, "robberies": 3, "assault": 13, "property": 74},
+      {"year": 2012, "robberies": 4, "assault": 17, "property": 102}
     ]
   },
   {
@@ -347,9 +501,14 @@
     "address": "6699 Fairmount Avenue, El Cerrito CA 94530",
     "entries": "4763",
     "exits": "4952",
-    "coordinates": [
-      -122.299272,
-      37.903059
+    "coordinates": [-122.299272, 37.903059],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 0, "property": 6},
+      {"year": 2016, "robberies": 2, "assault": 6, "property": 36},
+      {"year": 2015, "robberies": 4, "assault": 3, "property": 35},
+      {"year": 2014, "robberies": 1, "assault": 5, "property": 30},
+      {"year": 2013, "robberies": 2, "assault": 6, "property": 37},
+      {"year": 2012, "robberies": 2, "assault": 0, "property": 40}
     ]
   },
   {
@@ -358,9 +517,14 @@
     "address": "899 Market Street, San Francisco CA 94102",
     "entries": "29460",
     "exits": "25621",
-    "coordinates": [
-      -122.406857,
-      37.784991
+    "coordinates": [-122.406857, 37.784991],
+    "crimes": [
+      {"year": 2017, "robberies": 2, "assault": 6, "property": 16},
+      {"year": 2016, "robberies": 5, "assault": 27, "property": 41},
+      {"year": 2015, "robberies": 5, "assault": 24, "property": 42},
+      {"year": 2014, "robberies": 5, "assault": 34, "property": 46},
+      {"year": 2013, "robberies": 6, "assault": 32, "property": 52},
+      {"year": 2012, "robberies": 9, "assault": 23, "property": 53}
     ]
   },
   {
@@ -369,9 +533,14 @@
     "address": "1700 Nevin Avenue, Richmond CA 94801",
     "entries": "4184",
     "exits": "4029",
-    "coordinates": [
-      -122.353165,
-      37.936887
+    "coordinates": [-122.353165,37.936887],
+    "crimes": [
+      {"year": 2017, "robberies": 4, "assault": 4, "property": 14},
+      {"year": 2016, "robberies": 7, "assault": 14, "property": 76},
+      {"year": 2015, "robberies": 9, "assault": 15, "property": 46},
+      {"year": 2014, "robberies": 7, "assault": 9, "property": 56},
+      {"year": 2013, "robberies": 7, "assault": 8, "property": 26},
+      {"year": 2012, "robberies": 9, "assault": 13, "property": 43}
     ]
   },
   {
@@ -380,9 +549,14 @@
     "address": "5660 College Avenue, Oakland CA 94618",
     "entries": "5299",
     "exits": "5775",
-    "coordinates": [
-      -122.251793,
-      37.844601
+    "coordinates": [-122.251793,37.844601],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 6},
+      {"year": 2016, "robberies": 5, "assault": 3, "property": 35},
+      {"year": 2015, "robberies": 3, "assault": 4, "property": 45},
+      {"year": 2014, "robberies": 1, "assault": 5, "property": 44},
+      {"year": 2013, "robberies": 4, "assault": 3, "property": 36},
+      {"year": 2012, "robberies": 1, "assault": 0, "property": 38}
     ]
   },
   {
@@ -391,9 +565,14 @@
     "address": "1401 San Leandro Blvd., San Leandro CA 94577",
     "entries": "5836",
     "exits": "5921",
-    "coordinates": [
-      -122.161311,
-      37.722619
+    "coordinates": [-122.161311,37.722619],
+    "crimes": [
+      {"year": 2017, "robberies": 3, "assault": 6, "property": 13},
+      {"year": 2016, "robberies": 2, "assault": 11, "property": 81},
+      {"year": 2015, "robberies": 2, "assault": 10, "property": 92},
+      {"year": 2014, "robberies": 7, "assault": 13, "property": 112},
+      {"year": 2013, "robberies": 7, "assault": 19, "property": 139},
+      {"year": 2012, "robberies": 4, "assault": 14, "property": 76}
     ]
   },
   {
@@ -402,9 +581,14 @@
     "address": "1151 Huntington Avenue, San Bruno CA 94066",
     "entries": "3628",
     "exits": "3634",
-    "coordinates": [
-      -122.416038,
-      37.637753
+    "coordinates": [-122.416038, 37.637753],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 2},
+      {"year": 2016, "robberies": 2, "assault": 3, "property": 19},
+      {"year": 2015, "robberies": 0, "assault": 2, "property": 21},
+      {"year": 2014, "robberies": 0, "assault": 6, "property": 17},
+      {"year": 2013, "robberies": 2, "assault": 3, "property": 19},
+      {"year": 2012, "robberies": 1, "assault": 3, "property": 8}
     ]
   },
   {
@@ -413,9 +597,14 @@
     "address": "International Terminal, Level 3, San Francisco Int'l Airport CA 94128",
     "entries": "5833",
     "exits": "4904",
-    "coordinates": [
-      -122.392612,
-      37.616035
+    "coordinates": [-122.392612, 37.616035],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 0, "property": 1},
+      {"year": 2016, "robberies": 0, "assault": 1, "property": 5},
+      {"year": 2015, "robberies": 0, "assault": 1, "property": 8},
+      {"year": 2014, "robberies": 0, "assault": 2, "property": 3},
+      {"year": 2013, "robberies": 0, "assault": 2, "property": 6},
+      {"year": 2012, "robberies": 0, "assault": 1, "property": 7}
     ]
   },
   {
@@ -424,9 +613,14 @@
     "address": "28601 Dixon Street, Hayward CA 94544",
     "entries": "3007",
     "exits": "2829",
-    "coordinates": [
-      -122.057551,
-      37.6348
+    "coordinates": [-122.057551,37.6348],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 14},
+      {"year": 2016, "robberies": 5, "assault": 2, "property": 38},
+      {"year": 2015, "robberies": 6, "assault": 4, "property": 58},
+      {"year": 2014, "robberies": 1, "assault": 8, "property": 44},
+      {"year": 2013, "robberies": 4, "assault": 7, "property": 53},
+      {"year": 2012, "robberies": 4, "assault": 4, "property": 82}
     ]
   },
   {
@@ -435,9 +629,14 @@
     "address": "1333 Mission Road, South San Francisco CA 94080",
     "entries": "3542",
     "exits": "3441",
-    "coordinates": [
-      -122.444116,
-      37.664174
+    "coordinates": [-122.444116, 37.664174],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 1, "property": 10},
+      {"year": 2016, "robberies": 0, "assault": 3, "property": 10},
+      {"year": 2015, "robberies": 0, "assault": 8, "property": 16},
+      {"year": 2014, "robberies": 0, "assault": 3, "property": 12},
+      {"year": 2013, "robberies": 1, "assault": 3, "property": 15},
+      {"year": 2012, "robberies": 1, "assault": 2, "property": 9}
     ]
   },
   {
@@ -446,9 +645,14 @@
     "address": "10 Union Square, Union City CA 94587",
     "entries": "4772",
     "exits": "4770",
-    "coordinates": [
-      -122.017867,
-      37.591208
+    "coordinates": [-122.017867, 37.591208],
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 1, "property": 2},
+      {"year": 2016, "robberies": 3, "assault": 3, "property": 28},
+      {"year": 2015, "robberies": 5, "assault": 4, "property": 24},
+      {"year": 2014, "robberies": 2, "assault": 6, "property": 31},
+      {"year": 2013, "robberies": 5, "assault": 1, "property": 41},
+      {"year": 2012, "robberies": 1, "assault": 6, "property": 27}
     ]
   },
   {
@@ -457,9 +661,14 @@
     "address": "200 Ygnacio Valley Road, Walnut Creek CA 94596",
     "entries": "6719",
     "exits": "6917",
-    "coordinates": [
-      -122.067423,
-      37.905628
+    "coordinates": [-122.067423,37.905628],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 2, "property": 6},
+      {"year": 2016, "robberies": 0, "assault": 13, "property": 42},
+      {"year": 2015, "robberies": 0, "assault": 6, "property": 44},
+      {"year": 2014, "robberies": 0, "assault": 5, "property": 62},
+      {"year": 2013, "robberies": 0, "assault": 9, "property": 64},
+      {"year": 2012, "robberies": 0, "assault": 4, "property": 72}
     ]
   },
   {
@@ -468,9 +677,14 @@
     "address": "6501 Golden Gate Drive, Dublin CA 94568",
     "entries": "3303",
     "exits": "3447",
-    "coordinates": [
-      -121.928099,
-      37.699759
+    "coordinates": [-121.928099,37.699759],
+    "crimes": [
+      {"year": 2017, "robberies": 0, "assault": 0, "property": 10},
+      {"year": 2016, "robberies": 2, "assault": 1, "property": 20},
+      {"year": 2015, "robberies": 0, "assault": 1, "property": 26},
+      {"year": 2014, "robberies": 0, "assault": 1, "property": 42},
+      {"year": 2013, "robberies": 0, "assault": 1, "property": 32},
+      {"year": 2012, "robberies": 0, "assault": 0, "property": 27}
     ]
   },
   {
@@ -480,6 +694,13 @@
     "entries": "7312",
     "exits": "6838",
     "coordinates": [-122.294582, 37.804675],
-    "crimes": [{"year": 2016, "robberies": 7}]
+    "crimes": [
+      {"year": 2017, "robberies": 1, "assault": 5, "property": 18},
+      {"year": 2016, "robberies": 7, "assault": 24, "property": 57},
+      {"year": 2015, "robberies": 7, "assault": 21, "property": 75},
+      {"year": 2014, "robberies": 5, "assault": 11, "property": 74},
+      {"year": 2013, "robberies": 14, "assault": 16, "property": 73},
+      {"year": 2012, "robberies": 6, "assault": 8, "property": 81}
+    ]
   }
 ]

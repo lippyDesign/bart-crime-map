@@ -9,6 +9,9 @@ export default class ControlPanel extends PureComponent {
       <i className="fa fa-times fa-2x colorTomato" aria-hidden="true"></i>
     </button>;
 
+    const crimesPerYear = crimes.find(crimeYear => crimeYear.year === Number(this.props.selectedYear));
+    const { robberies, assault, property } = crimesPerYear;
+
     return (
       <div className="control-panel">
         <div className="controlPanelInnerWrapper">
@@ -17,7 +20,10 @@ export default class ControlPanel extends PureComponent {
           <hr />
           <p>Entries: {entries} <span className='boldText paddingHorizontalTen'>|</span> Exits: {exits}</p>
           <hr />
-          <p>Total crime in 2016: </p>
+          <p>{this.props.selectedYear} Total crimes: {robberies + assault + property}</p>
+          <p>Robberies: {robberies}</p>
+          <p>Assaults: {assault}</p>
+          <p>Property: {property}</p>
         </div>
       </div>
     );
