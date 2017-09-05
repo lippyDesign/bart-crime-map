@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import DeckGL, { HexagonLayer } from 'deck.gl';
 
 const LIGHT_SETTINGS = {
@@ -19,15 +19,15 @@ const colorRange = [
   [209, 55, 78]
 ];
 
-const elevationScale = { min: 1, max: 50 };
+const elevationScale = {min: 1, max: 50};
 
 const defaultProps = {
-  radius: 1000,
+  radius: 100,
   upperPercentile: 100,
   coverage: 1
 };
 
-export default class BartOverlay extends Component {
+export default class DeckGLOverlay extends Component {
 
   static get defaultColorRange() {
     return colorRange;
@@ -92,7 +92,7 @@ export default class BartOverlay extends Component {
     if (this.state.elevationScale === elevationScale.max) {
       this._stopAnimate();
     } else {
-      this.setState({ elevationScale: this.state.elevationScale + 1 });
+      this.setState({elevationScale: this.state.elevationScale + 1});
     }
   }
 
@@ -102,8 +102,7 @@ export default class BartOverlay extends Component {
   }
 
   render() {
-    const { viewport, data, radius, coverage, upperPercentile } = this.props;
-    console.log(viewport, data, radius, coverage, upperPercentile)
+    const {viewport, data, radius, coverage, upperPercentile} = this.props;
 
     if (!data) {
       return null;
@@ -115,22 +114,23 @@ export default class BartOverlay extends Component {
         colorRange,
         coverage,
         data,
-        elevationRange: [0, 3000],
+        elevationRange: [0, 1000],
         elevationScale: this.state.elevationScale,
         extruded: true,
         getPosition: d => d,
         lightSettings: LIGHT_SETTINGS,
-        onHover: this.props.onHover,
+        onClick: d => console.log(d),
         opacity: 1,
-        pickable: Boolean(this.props.onHover),
+        pickable: true,
         radius,
         upperPercentile
-      })
+      }),
+      this.props.entryAndExitlayer
     ];
 
     return <DeckGL {...viewport} layers={layers} onWebGLInitialized={this._initialize} />;
   }
 }
 
-BartOverlay.displayName = 'DeckGLOverlay';
-BartOverlay.defaultProps = defaultProps;
+DeckGLOverlay.displayName = 'DeckGLOverlay';
+DeckGLOverlay.defaultProps = defaultProps;

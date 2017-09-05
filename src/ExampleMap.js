@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import MapGL from 'react-map-gl';
 import DeckGL, { ScatterplotLayer } from 'deck.gl';
-import anime from 'animejs'
+import anime from 'animejs';
 
+import CrimeLayer from './CrimeLayer';
 import ControlPanel from './ControlPanel';
 import YearOptionPanel from './YearOptionPanel';
-import BartOverlay from './BartOverlay';
 
 import bartStations from './bart-station.json';
 
@@ -18,7 +18,7 @@ export default class App extends Component {
     viewport: {
       latitude: 37.785164,
       longitude: -122.41669,
-      zoom: 12,
+      zoom: 10,
       bearing: -20.55991,
       pitch: 60,
       width: window.innerWidth,
@@ -127,34 +127,47 @@ export default class App extends Component {
   // enables the map drag
   _enableMap = () => this.setState({ settings: { ...this.state.settings, dragPan: true } })
 
+  _getCrimeCoordsArray = () => {
+    const rrr = []
+    bartStations.forEach(st => {
+      const year = st.crimes.find(cr => cr.year === Number(this.state.selectedYear));
+      let totalCrimes = year.property + year.robberies + year.assault;
+      while (totalCrimes > 0) {
+        rrr.push(st.coordinates)
+        totalCrimes--;
+      }
+    })
+    return rrr;
+  }
+
   render() {
     const { viewport, settings, years, selectedYear } = this.state;
-
-    const layer = new ScatterplotLayer({
+    // the orage circles (entry and exits)
+    const entryAndExitlayer = new ScatterplotLayer({
       id: 'scatterplot-layer',
       data: bartStations,
       getPosition: e => e.coordinates,
       getColor: e => [255,140,0],
       getRadius: e => {
-        return Math.sqrt(Number(e.entries) + Number(e.exits))
+        return Math.sqrt((Number(e.entries) + Number(e.exits)) * 3)
       },
       pickable: true,
       onClick: e => this._stationClicked(e),
       className: 'station'
     });
-
+    
     return <MapGL
       {...viewport}
       {...settings}
       mapStyle="mapbox://styles/mapbox/dark-v9"
       onViewportChange={this._onViewportChange}
       mapboxApiAccessToken={MAPBOX_TOKEN} >
-      {/* <BartOverlay
+      <CrimeLayer
         viewport={viewport}
-        data={bartStations.coordinates || []}
-      /> */}
-
-      <DeckGL radiusMinPixels={75} {...viewport} layers={[layer]} />
+        data={this._getCrimeCoordsArray()}
+        entryAndExitlayer={entryAndExitlayer}
+        _stationClicked={this._stationClicked}
+      />
       {this._renderControlPanel()}
       <YearOptionPanel
         selectedYear={selectedYear}

@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class YearOptionPanel extends Component {
   render() {
     const { years, selectedYear, _yearChanged, _disableMap, _enableMap } = this.props;
-    console.log(years)
     return <div className='yearOptionPanel'>
       <h3>Year: {selectedYear}
         <input
