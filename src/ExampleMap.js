@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MapGL from 'react-map-gl';
-import DeckGL, { ScatterplotLayer } from 'deck.gl';
+import { ScatterplotLayer } from 'deck.gl';
 import anime from 'animejs';
 
 import CrimeLayer from './CrimeLayer';
