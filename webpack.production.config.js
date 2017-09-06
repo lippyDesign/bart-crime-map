@@ -31,7 +31,7 @@ module.exports = {
     }
   },
   module: {
-    noParse: /(mapbox-gl)\.js$/,
+    noParse: /(mapbox-gl)\.js$/, // necessary or uglify will mess up everything
     loaders
   },
   plugins: [

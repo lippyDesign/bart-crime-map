@@ -37,6 +37,9 @@ body {
   color: #6b6b76;
   text-transform: uppercase;
   outline: none;
+  @media screen and (max-width: 430px) {
+    width: 240px;
+  }
 }
 .yearInput {
   margin-left: 20px;
