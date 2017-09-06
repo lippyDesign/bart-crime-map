@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-babel",
+  "name": "bart-crime-map",
   "version": "0.0.4",
-  "description": "React Webpack Babel Starter Kit",
+  "description": "Graphical representation of crime in BART system",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
@@ -14,9 +14,10 @@
     "type": "git",
     "url": "https://github.com/alicoding/react-webpack-babel"
   },
-  "author": "Ali Al Dallal",
+  "author": "Volodymyr Lipunov",
   "license": "MIT",
   "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "engines" : { "node" : "8.4.0" },
   "dependencies": {
     "animejs": "^2.0.2",
     "axios": "^0.16.2",
