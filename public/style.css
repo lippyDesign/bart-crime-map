@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.control-panel {
+  position: absolute;
+  top: 84px;
+  right: -370px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  font-size: 13px;
+  line-height: 2;
+  color: #6b6b76;
+  text-transform: uppercase;
+  outline: none;
+  opacity: 0;
+}
+
+.yearOptionPanel {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 340px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  font-size: 13px;
+  line-height: 2;
+  color: #6b6b76;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.yearInput {
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.blackText {
+  color: black;
+}
+
+.colorTomato {
+  color: tomato;
+}
+
+.colorOrange {
+  color: #F0880A;
+}
+
+.paddingHorizontalTen {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.closeButton {
+  float: right;
+  background: transparent;
+  border: none;
+}
+
+.closeButton :hover {
+  cursor: pointer;
+}
+
+.station :hover {
+  cursor: pointer !important;
+}
+
+.redBg {
+  background-color: red;
+  border-radius: 51px;
+  color: white;
+  padding: 5px;
+}
