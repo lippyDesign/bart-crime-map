@@ -34,6 +34,7 @@ module.exports = {
     loaders
   },
   plugins: [
+    new webpack.EnvironmentPlugin({ MapboxAccessToken: 'pk.eyJ1IjoibnVtYmVyMWljZSIsImEiOiJjajZ6cTMwd3Qwc3VuMzJwbm9ibm43cXBmIn0.lqMeYXEV6KE183Nq1HCU3Q' }),
     new WebpackCleanupPlugin(),
     new webpack.DefinePlugin({
       'process.env': {

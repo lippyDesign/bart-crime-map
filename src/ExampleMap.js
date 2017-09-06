@@ -10,7 +10,7 @@ import YearOptionPanel from './YearOptionPanel';
 import bartStations from './bart-station.json';
 
 // mapbox token here
-const MAPBOX_TOKEN = 'pk.eyJ1IjoibnVtYmVyMWljZSIsImEiOiJjajZ6cTMwd3Qwc3VuMzJwbm9ibm43cXBmIn0.lqMeYXEV6KE183Nq1HCU3Q';
+const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line;
 
 export default class App extends Component {
 

@@ -46,6 +46,7 @@ module.exports = {
     host: HOST
   },
   plugins: [
+    new webpack.EnvironmentPlugin({ MapboxAccessToken: 'pk.eyJ1IjoibnVtYmVyMWljZSIsImEiOiJjajZ6cTMwd3Qwc3VuMzJwbm9ibm43cXBmIn0.lqMeYXEV6KE183Nq1HCU3Q' }),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
